@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  text-align: center;
+  padding: 20px 280px;
+  background-color: wheat;
+  min-height: 100vh;
+}
+
+.list-container {
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  transition: all 500ms ease;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+.list-container:hover {
+  background-color: black;
+  color: white;
+  transform: translateX(15px);
+}
+
+.detail-container {
+  background-color: wheat;
+  /* padding: 30px 200px; */
+  margin-left: auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail {
+  width: 600px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.detail span {
+  display: block;
+  margin-bottom: 15px;
+}
